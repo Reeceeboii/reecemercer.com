@@ -40,26 +40,26 @@ class HueHub extends React.Component {
             sending or receiving data.</p>
 
             <h2><b>Some screenshots</b></h2>
-            <span className="image"><img src={HueEntryScreen} alt=""/></span>
+            <span className="image project"><img src={HueEntryScreen} alt=""/></span>
             <p style={{textAlign: `left`}}>The first screen a new user sees</p>
 
-            <span className="image"><img src={HueEntryScreen1} alt=""/></span>
+            <span className="image project"><img src={HueEntryScreen1} alt=""/></span>
             <p style={{textAlign: `left`}}>If the user attempts a connection without pressing the auth button on the bridge</p>
 
-            <span className="image"><img src={HueEntryScreen2} alt=""/></span>
+            <span className="image project"><img src={HueEntryScreen2} alt=""/></span>
             <p style={{textAlign: `left`}}>Successful authentication</p>
 
-            <span className="image"><img src={Hue1} alt=""/></span>
+            <span className="image project"><img src={Hue1} alt=""/></span>
             <p style={{textAlign: `left`}}>Main screen with light selection and control options</p>
 
-            <span className="image"><img src={Hue2} alt=""/></span>
+            <span className="image project"><img src={Hue2} alt=""/></span>
             <p style={{textAlign: `left`}}>Brightness slider for fine tuning of light brightness.</p>
 
-            <span className="image"><img src={Hue3} alt=""/></span>
+            <span className="image project"><img src={Hue3} alt=""/></span>
             <p style={{textAlign: `left`}}>Simple on/off button</p>
 
-            <span className="image"><img src={Hue4} alt=""/></span>
-            <span className="image"><img src={Hue5} alt=""/></span>
+            <span className="image project"><img src={Hue4} alt=""/></span>
+            <span className="image project"><img src={Hue5} alt=""/></span>
             <p style={{textAlign: `left`}}>Menu options</p>
 
 
