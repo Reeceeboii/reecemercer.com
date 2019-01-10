@@ -70,13 +70,13 @@ class Index extends React.Component {
                 <span className="image"><img src={bulb} alt="" /></span>
                 <h3>HueHub</h3>
                 <p>Client software for interfacing with the Philips Hue API and controlling smart bulbs.</p>
-                <Link to="/HueHub" className="button project">Learn More</Link>
+                <Link to="/HueHub" className="button project">Explore</Link>
               </li>
               <li>
                 <span className="image"><img src={threeD} alt="" /></span>
                 <h3>3D renderer</h3>
                 <p>3D model renderer, built using OpenGL. Vertex buffer objects, vertex arrays and basic shaders.</p>
-                <Link to="/generic" className="button project">Learn More</Link>
+                <Link to="/3DRenderer" className="button project">Explore</Link>
               </li>
             </ul>
           </section>

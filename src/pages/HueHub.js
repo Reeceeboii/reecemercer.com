@@ -5,7 +5,6 @@ import HeaderGeneric from '../components/HeaderGeneric'
 
 
 import Layout from '../components/layout'
-import Nav from '../components/Nav'
 
 import HueDiagram from '../assets/images/HueHub Network Diagram.png'
 
