@@ -16,7 +16,7 @@ import Hue4 from '../assets/images/HueHub 4.png'
 import Hue5 from '../assets/images/HueHub 5.png'
 
 
-import HueEntryScreen from '../assets/images/HueEntryScreen.png'
+import HueEntryScreen from '../assets/images/HueEntryScreen0.png'
 import HueEntryScreen1 from '../assets/images/HueEntryScreen1.png'
 import HueEntryScreen2 from '../assets/images/HueEntryScreen2.png'
 
