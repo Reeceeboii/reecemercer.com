@@ -9,7 +9,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'gatsby-starter-default',
-        short_name: 'starter',
+        short_name: 'Reece Mercer',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
@@ -18,6 +18,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    'gatsby-plugin-favicon'
   ],
 }
