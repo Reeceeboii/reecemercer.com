@@ -80,7 +80,7 @@ class Index extends React.Component {
               </li>
             </ul>
 
-            <h2>For more things I've done, and to view the full source code for the above projects, visit my <a href="https://github.com/Reeceeboii" target="_blank">GitHub</a></h2>
+            <h2>For more things I've done, and to view the full source code for the above projects, visit my <a href="https://github.com/Reeceeboii" target="_blank" rel="noopener noreferrer">GitHub</a></h2>
           </section>
 
           <section id="second" className="main special">
@@ -103,7 +103,7 @@ class Index extends React.Component {
             <header className="major">
               <h2>Contact and other info</h2>
               <p>You can email me at <a href="mailto:reecemercer@outlook.com">reecemercer@outlook.com</a></p>
-              <p>Or view my <a href="https://github.com/Reeceeboii" target="_blank">GitHub</a> to see what else I do!</p>
+              <p>Or view my <a href="https://github.com/Reeceeboii" target="_blank" rel="noopener noreferrer">GitHub</a> to see what else I do!</p>
             </header>
           </section>
         </div>

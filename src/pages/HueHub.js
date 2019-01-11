@@ -27,7 +27,7 @@ class HueHub extends React.Component {
       <Layout>
         <Helmet title="HueHub" />
         <HeaderGeneric headerText="HueHub" paragraphText="A program to control Philips Hue smart bulbs"/>
-        <h3 style={{textAlign: `center`}}>GitHub repo - <a href="https://github.com/Reeceeboii/HueHub" target="_blank">HueHub</a></h3>
+        <h3 style={{textAlign: `center`}}>GitHub repo - <a href="https://github.com/Reeceeboii/HueHub" target="_blank" rel="noopener noreferrer">HueHub</a></h3>
         <div id="main">
           <section id="content" className="main">
             <span className="image main"><img src={HueDiagram} alt="" /></span>
