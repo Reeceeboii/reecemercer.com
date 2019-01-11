@@ -26,7 +26,7 @@ class ThreeDRenderer extends React.Component {
         <Helmet title="3D Renderer" />
         <HeaderGeneric headerText="3D Renderer based on OpenGL"
         paragraphText="Using the OpenGL API to interface with the GPU and render 3D models (.obj files) and their corresponding textures into a window"/>
-        <h3 style={{textAlign: `center`}}>GitHub repo - <a href="https://github.com/Reeceeboii/OpenGL-3D-Renderer" target="_blank">Open-GL-3D-Renderer</a></h3>
+        <h3 style={{textAlign: `center`}}>GitHub repo - <a href="https://github.com/Reeceeboii/OpenGL-3D-Renderer" target="_blank" rel="noopener noreferrer">Open-GL-3D-Renderer</a></h3>
         <div id="main">
           <section id="content" className="main">
           <span className="image main"><img src={code} alt="" /></span>
@@ -55,7 +55,7 @@ class ThreeDRenderer extends React.Component {
           </ul>
 
           <p>It starts with a model that you want to render. I'll explain this with a cube to keep things simple. The first port of call is to create a wireframe. This is simply a collection polygons
-          (triangles in the case of 3D graphics) that form a shape. To create a simple model, I'll use <a href="https://www.blender.org/" target="_blank">Blender</a>, a free 3D modelling program.
+          (triangles in the case of 3D graphics) that form a shape. To create a simple model, I'll use <a href="https://www.blender.org/" target="_blank" rel="noopener noreferrer">Blender</a>, a free 3D modelling program.
           </p>
 
           <span className="image project"><img src={blenderCube} alt=""/></span>

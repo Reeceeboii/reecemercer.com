@@ -18,7 +18,7 @@ class About extends React.Component {
             <span className="image main"><img src={circuit} alt="" /></span>
             <h1><b><u>Education</u></b></h1>
             <h2>2006 - Primary school - year 2</h2>
-            <p>I started a computer club, aged 6, called <a href="https://www.technokids.com/" target = "_blank">Technokids</a> as an extra curricular activity. I'd never really had much of an interest in technology before, but
+            <p>I started a computer club, aged 6, called <a href="https://www.technokids.com/" target = "_blank" rel="noopener noreferrer">Technokids</a> as an extra curricular activity. I'd never really had much of an interest in technology before, but
             instantly, I developed a love for computers and how they allowed me to do things such as make little musical loops or learn how many words I could type a minute etc...
              Looking back, these are rather trivial things, but at the time I didn't realise that that fascination had kick started a love for technology that would still be going strong many many years later.</p>
 
@@ -28,7 +28,7 @@ class About extends React.Component {
 
             <h2>2016 - 2018 - Sixth form</h2>
             <p>Sixth form came with a big increase to my knowledge of both computer science theory, and practical application. It was this point that I started working on small projects in my own time, which was when I discovered
-            GUI programming in the form of the <a href="https://docs.python.org/2/library/tkinter.html" target="_blank">TkInter</a> library for Python. My end of year project was an epidemiological simulation, visualised with various
+            GUI programming in the form of the <a href="https://docs.python.org/2/library/tkinter.html" target="_blank" rel="noopener noreferrer">TkInter</a> library for Python. My end of year project was an epidemiological simulation, visualised with various
             customisable parameters. It was designed to be used as a teaching tool within a classroom environment to demonstrate to biology students how things such as the number of land borders a country has, its ambient climate
             or the population numbers impacted the spread of a disease over 200+ countries. It implemented some well known algorithms such as a breadth first search in order simulate the propagation of a disease outwards from the starting
             country, using the data about which countries share land borders, and which countries aren't and are already infected.</p>
