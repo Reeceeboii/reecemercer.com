@@ -1,6 +1,6 @@
 # Personal website/project portfolio
 
-Hosted @ [reecemercer.com].
+Hosted @ [https://reecemercer.com].
 
 
 Built with Gatsby and ReactJS, deployed and hosted on Netlify.
