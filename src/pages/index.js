@@ -79,60 +79,34 @@ class Index extends React.Component {
                 <Link to="/3DRenderer" className="button project">Explore</Link>
               </li>
             </ul>
+
+            <h2>For more things I've done, and to view the full source code for the above projects, visit my <a href="https://github.com/Reeceeboii" target="_blank">GitHub</a></h2>
           </section>
 
           <section id="second" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+              <h2>What I'm studying</h2>
+              <h3><b>Here's a small list of the modules I'm studying this year</b></h3>
             </header>
-            <ul className="statistics">
-              <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
-              </li>
-              <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
-              </li>
-              <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
-              </li>
-              <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
-              </li>
-              <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
-              </li>
-            </ul>
-            <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/404" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
+
+
+            <h3>Programming in Java</h3>
+            <h3>Discrete mathematics</h3>
+            <h3>Web development & databases - SQL & JavaScript</h3>
+            <h3>Systems architecture</h3>
+            <h3>Algorithms</h3>
+            <h3>Operating systems</h3>
+
           </section>
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+              <h2>Contact and other info</h2>
+              <p>You can email me at <a href="mailto:reecemercer@outlook.com">reecemercer@outlook.com</a></p>
+              <p>Or view my <a href="https://github.com/Reeceeboii" target="_blank">GitHub</a> to see what else I do!</p>
             </header>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
           </section>
-
         </div>
-
       </Layout>
     )
   }

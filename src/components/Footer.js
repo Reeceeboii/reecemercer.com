@@ -7,10 +7,9 @@ const Footer = (props) => (
             <h2>Contact information</h2>
             <dl className="alt">
                 <dt>Email</dt>
-                <dd><a href="#">reecemercer@outlook.com</a></dd>
+                <dd><a href="mailto:reecemercer@outlook.com">reecemercer@outlook.com</a></dd>
             </dl>
             <ul className="icons">
-                <li><a href="https://twitter.com/reece_mercer_?lang=en-gb" target="_blank" className="icon fa-twitter alt"><span className="label">Twitter</span></a></li>
                 <li><a href="https://github.com/Reeceeboii" target="_blank" className="icon fa-github alt"><span className="label">GitHub</span></a></li>
             </ul>
         </section>

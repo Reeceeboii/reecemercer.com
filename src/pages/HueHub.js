@@ -6,18 +6,18 @@ import HeaderGeneric from '../components/HeaderGeneric'
 
 import Layout from '../components/layout'
 
-import HueDiagram from '../assets/images/HueHub Network Diagram.png'
+import HueDiagram from '../assets/images/HueHub/HueHub Network Diagram.png'
 
-import Hue1 from '../assets/images/HueHub 1.png'
-import Hue2 from '../assets/images/HueHub 2.png'
-import Hue3 from '../assets/images/HueHub 3.png'
-import Hue4 from '../assets/images/HueHub 4.png'
-import Hue5 from '../assets/images/HueHub 5.png'
+import Hue1 from '../assets/images/HueHub/HueHub 1.png'
+import Hue2 from '../assets/images/HueHub/HueHub 2.png'
+import Hue3 from '../assets/images/HueHub/HueHub 3.png'
+import Hue4 from '../assets/images/HueHub/HueHub 4.png'
+import Hue5 from '../assets/images/HueHub/HueHub 5.png'
 
 
-import HueEntryScreen from '../assets/images/HueEntryScreen0.png'
-import HueEntryScreen1 from '../assets/images/HueEntryScreen1.png'
-import HueEntryScreen2 from '../assets/images/HueEntryScreen2.png'
+import HueEntryScreen from '../assets/images/HueHub/HueEntryScreen0.png'
+import HueEntryScreen1 from '../assets/images/HueHub/HueEntryScreen1.png'
+import HueEntryScreen2 from '../assets/images/HueHub/HueEntryScreen2.png'
 
 
 
