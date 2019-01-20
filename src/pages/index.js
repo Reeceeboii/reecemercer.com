@@ -10,6 +10,7 @@ import Nav from '../components/Nav'
 import me from '../assets/images/me.jpg'
 import bulb from '../assets/images/bulb.png'
 import threeD from '../assets/images/3d.png'
+import security from '../assets/images/security.png'
 
 
 class Index extends React.Component {
@@ -75,8 +76,14 @@ class Index extends React.Component {
               <li>
                 <span className="image"><img src={threeD} alt="" /></span>
                 <h3>3D renderer</h3>
-                <p>3D model renderer, built using OpenGL. Vertex buffer objects, vertex arrays and basic shaders.</p>
+                <p>A 3D model renderer, built using OpenGL. Vertex buffer objects, vertex arrays and basic shaders.</p>
                 <Link to="/3DRenderer" className="button project">Explore</Link>
+              </li>
+              <li>
+                <span clasName="image"><img src={security} alt="" /></span>
+                <h3>RSA</h3>
+                <p>Fully functional implementation of the RSA asymmetric cryptography system. Keygen, encryption and decryption.</p>
+                <Link to="/RSA" className="button project">Explore</Link>
               </li>
             </ul>
 

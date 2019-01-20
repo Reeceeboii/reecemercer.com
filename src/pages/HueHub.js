@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import HeaderGeneric from '../components/HeaderGeneric'
 
-
 import Layout from '../components/layout'
 
 import HueDiagram from '../assets/images/HueHub/HueHub Network Diagram.png'
