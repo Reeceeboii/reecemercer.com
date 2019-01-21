@@ -156,7 +156,7 @@ class RSACrypto extends React.Component{
             <p>456533 1771561 32768 1331000 912673 1295029 <b>1030301</b> 32768 1157625 1520875 32768 551368 <b>1030301</b> <b>1030301</b> 970299 <b>1030301</b></p>
             <p><i>Note how that without padding, the reoccurring 'e' value can easily be seen as 1030301.</i></p>
 
-            <p>When this is received, the private key is used for decryption. The same thing occurs here but in reverse. Each character has it's value raised to the power of the
+            <p>When this is received, the private key is used for decryption. The same thing occurs here but in reverse. Each character has its value raised to the power of the
             private key's exponent value (this results in some <b>huge</b> numbers). These values are then divided using modulo division with the private key's modulo value.</p>
 
             <span className="image project"><img src={dec} alt=""/></span>
@@ -168,6 +168,15 @@ class RSACrypto extends React.Component{
             <p>And are coverted to characters: "My name is Reece"</p>
 
             <span className="image project"><img src={output} alt=""/></span>
+
+            <h2><b>A few extra notes</b></h2>
+            <p>RSA is actually considered overkill for just transmitting text as I demonstrated. Also, it is comparatively slow when compared to other modern crypto techniques. A common use of RSA is for the encryption of AES keys, which are then used in a much faster and simpler symmetric system. The use of
+            RSA entirely removes the big catch from single shared key systems I mentioned earlier on this page. While previous symmetric systems required the key to be shared in its plaintext state, RSA allows it to be very securely encrypted and then shared safely; this AES key then goes on to do to the bulk data encryption,
+            not RSA itself.</p>
+
+            <p>RSA also has uses besides plain encryption. Remember that the data encrypted with one key (be it the private or public) can only be decrypted by the other key belonging to the corresponding pair? Well, I've explained this particular asymmetric system in the order of public for encryption, then private for decryption. This is good for sharing sensitive data
+            as you know that it can only be read by the intended recipient. However, think about the reverse of this; someone encrypts something with their private key and then shares the encrypted data with someone else. If this data can be successfully decrypted using the sender's public key, then it essentially proves that it was sent by them. It acts as what's called a digital
+            signature, and is widely used by businesses to prove the authenticity of their websites to clients visiting it.</p>
 
             <ul className="actions">
               <li><Link to="/" className="button">Return home</Link></li>

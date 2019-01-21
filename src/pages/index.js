@@ -53,7 +53,7 @@ class Index extends React.Component {
                   <h2>Welcome</h2>
                 </header>
                 <p>I am currently a full time first year student at City, University of London, studying Computer Science with Cyber Security.</p>
-                <p>I am also an avid programmer, and have current interests in the fields of 3D rendering and the use of RESTful API's to control IoT devices.</p>
+                <p>I am also an avid programmer, and have current interests in encryption algorithms and the control of IoT devices via REST API's.</p>
                 <ul className="actions">
                   <li><Link to="/about" className="button">Learn some more about me</Link></li>
                 </ul>
