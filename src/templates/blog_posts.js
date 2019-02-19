@@ -18,7 +18,8 @@ class BlogPost extends React.Component {
                 <div id="main">
                     <section id="content" className="main">
                         <div dangerouslySetInnerHTML={{ __html: blog_markdown.html }}/>
-                    </section>
+                        <Link to="/" className="button">Return home</Link>
+                </section>
                 </div>
             </Layout>
         )
