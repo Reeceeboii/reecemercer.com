@@ -17,6 +17,11 @@ const navItems = [
     {
         type: "id",
         element: "second",
+        text: "Blog (new)"
+    },
+    {
+        type: "id",
+        element: "third",
         text: "What I'm Studying"
     },
     {
@@ -28,7 +33,7 @@ const navItems = [
 
 const Nav = (props) => (
     <nav id="nav" className={props.sticky ? 'alt' : ''}>
-        <Scrollspy items={ ['intro', 'first', 'second', 'cta'] } currentClassName="is-active" offset={-300}>
+        <Scrollspy items={ ['intro', 'first', 'second', 'third', 'cta'] } currentClassName="is-active" offset={-300}>
             {
                 navItems.map( (item) => (
                     <li>

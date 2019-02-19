@@ -1,2 +1,4 @@
-node_modules
-public
+# Directories
+/node_modules
+/public
+/.cache

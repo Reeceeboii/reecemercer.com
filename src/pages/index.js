@@ -92,6 +92,14 @@ class Index extends React.Component {
 
           <section id="second" className="main special">
             <header className="major">
+            <h2>Blog</h2>
+            <br/>
+            <h3>Coming soon!</h3>
+            </header>
+          </section>
+
+          <section id="third" className="main special">
+            <header className="major">
               <h2>What I'm studying</h2>
               <h3><b>Here's a small list of the modules I'm studying this year</b></h3>
             </header>
@@ -99,7 +107,7 @@ class Index extends React.Component {
 
             <h3>Programming in Java</h3>
             <h3>Discrete mathematics</h3>
-            <h3>Web development & databases - SQL & JavaScript</h3>
+            <h3>Business systems (web development & databases)</h3>
             <h3>Systems architecture</h3>
             <h3>Algorithms</h3>
             <h3>Operating systems</h3>
