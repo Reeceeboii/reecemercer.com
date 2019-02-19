@@ -17,7 +17,7 @@ const navItems = [
     {
         type: "id",
         element: "second",
-        text: "Blog (new)"
+        text: "Blog"
     },
     {
         type: "id",

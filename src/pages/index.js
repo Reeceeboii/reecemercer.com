@@ -94,7 +94,8 @@ class Index extends React.Component {
             <header className="major">
             <h2>Blog</h2>
             <br/>
-            <h3>Coming soon!</h3>
+            <h3>Want to read my rambles?</h3>
+            <Link to="/about" className="button project">Visit my blog!</Link>
             </header>
           </section>
 

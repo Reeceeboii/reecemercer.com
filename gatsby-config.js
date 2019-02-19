@@ -19,6 +19,14 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
-    'gatsby-plugin-favicon'
+    'gatsby-plugin-favicon',
+    {
+        resolve: 'gatsby-source-filesystem',
+        options: {
+            path: `${__dirname}/src/blog_posts`,
+            name: 'blog_posts'
+        }
+    },
+    'gatsby-transformer-remark'
   ],
 }
