@@ -23,6 +23,7 @@ class BlogLander extends React.Component {
                 <h2><a href="/new-blog">New Blog!</a></h2>
                 <h2>20/02/19</h2>
               </li>
+            
 
             </ul>
 

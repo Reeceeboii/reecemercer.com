@@ -14,7 +14,8 @@ class BlogPost extends React.Component {
         return (
             <Layout>
                 <Helmet title={blog_markdown.frontmatter.title} />
-                <HeaderGeneric headerText={blog_markdown.frontmatter.title}/>
+                <HeaderGeneric headerText={blog_markdown.frontmatter.title}
+                paragraphText={blog_markdown.frontmatter.date}/>
                 <div id="main">
                     <section id="content" className="main">
                         <div dangerouslySetInnerHTML={{ __html: blog_markdown.html }}/>
@@ -35,6 +36,7 @@ export const postQuery = graphql`
             frontmatter {
             path
             title
+            date
             }
         }
     }
