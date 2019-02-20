@@ -12,6 +12,13 @@ const Footer = (props) => (
                 <li><a href="https://github.com/Reeceeboii" target="_blank" rel="noopener noreferrer" className="icon fa-github alt"><span className="label">GitHub</span></a></li>
             </ul>
         </section>
+        <section>
+          <h2>Other</h2>
+          <dl className="alt">
+            <dt>Blog</dt>
+            <dd><a href="/Blog">Visit my new blog!</a></dd>
+          </dl>
+        </section>
         <p className="copyright">&copy; Reece Mercer 2019</p>
     </footer>
 )

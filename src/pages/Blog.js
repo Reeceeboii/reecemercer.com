@@ -6,12 +6,13 @@ import HeaderGeneric from '../components/HeaderGeneric'
 import Layout from '../components/layout'
 
 
-class BlogLander extends React.Component {
+class Blog extends React.Component {
   render () {
     return (
       <Layout>
         <Helmet title="Blog"/>
-        <HeaderGeneric headerText="Reece's Rambles"/>
+        <HeaderGeneric headerText="Reece's Rambles" paragraphText="Slightly interesting content from someone who spends too long sat at his computer"/>
+
         <div id="main">
           <section className="main special">
             <header className="major">
@@ -23,8 +24,10 @@ class BlogLander extends React.Component {
                 <h2><a href="/new-blog">New Blog!</a></h2>
                 <h2>20/02/19</h2>
               </li>
-            
-
+              <li>
+                <h2><a href="/5-reasons-why-i-enjoy-computer-science">5 reasons why I enjoy Computer Science</a></h2>
+                <h2>20/02/19</h2>
+              </li>
             </ul>
 
             <Link to="/" className="button">Return home</Link>
@@ -37,4 +40,4 @@ class BlogLander extends React.Component {
   }
 }
 
-export default BlogLander
+export default Blog
