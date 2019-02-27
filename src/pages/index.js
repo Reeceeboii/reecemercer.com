@@ -23,11 +23,11 @@ class Index extends React.Component {
 
   _handleWaypointEnter= () => {
     this.setState(() => ({ stickyNav: false }));
-  }
+  };
 
   _handleWaypointLeave = () => {
     this.setState(() => ({ stickyNav: true }));
-  }
+  };
 
   render() {
 
@@ -50,7 +50,7 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Welcome</h2>
+                  <h2>Hey, I'm Reece!</h2>
                 </header>
                 <p>I am currently a full time first year student at City, University of London, studying Computer Science with Cyber Security.</p>
                 <p>I am also an avid programmer, and have current interests in encryption algorithms and the control of IoT devices via REST API's.</p>
@@ -118,8 +118,9 @@ class Index extends React.Component {
           <section id="cta" className="main special">
             <header className="major">
               <h2>Contact and other info</h2>
-              <p>You can email me at <a href="mailto:reecemercer@outlook.com">reecemercer@outlook.com</a></p>
-              <p>Or view my <a href="https://github.com/Reeceeboii" target="_blank" rel="noopener noreferrer">GitHub</a> to see what else I do!</p>
+              <h3>You can email me at <a href="mailto:reecemercer@outlook.com">reecemercer@outlook.com</a>,</h3>
+              <h3>or go to my <a href="https://www.linkedin.com/in/reece-mercer/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h3>
+              <h3>or view my <a href="https://github.com/Reeceeboii" target="_blank" rel="noopener noreferrer">GitHub</a> to see what else I do!</h3>
             </header>
           </section>
         </div>
