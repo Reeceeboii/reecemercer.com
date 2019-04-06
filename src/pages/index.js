@@ -53,7 +53,7 @@ class Index extends React.Component {
                   <h2>Hey, I'm Reece!</h2>
                 </header>
                 <p>I am currently a full time first year student at City, University of London, studying Computer Science with Cyber Security.</p>
-                <p>I am also an avid programmer, and have current interests in encryption algorithms and the control of IoT devices via REST API's.</p>
+                <p>I am also an avid programmer, scroll down to view some of my projects and see the kind of things I'm interested in!</p>
                 <ul className="actions">
                   <li><Link to="/about" className="button">Learn some more about me</Link></li>
                 </ul>
@@ -103,15 +103,17 @@ class Index extends React.Component {
             <header className="major">
               <h2>What I'm studying</h2>
               <h3><b>Here's a small list of the modules I'm studying this year</b></h3>
+              <h3>Completed - ✔️ | In progress - 📚</h3>
+              <hr/>
             </header>
 
 
-            <h3>Programming in Java</h3>
-            <h3>Discrete mathematics</h3>
-            <h3>Business systems (web development & databases)</h3>
-            <h3>Systems architecture</h3>
-            <h3>Algorithms</h3>
-            <h3>Operating systems</h3>
+            <h3>Programming in Java 📚</h3>
+            <h3>Discrete mathematics ✔️</h3>
+            <h3>Business systems (web development & databases) ✔️</h3>
+            <h3>Systems architecture ✔️</h3>
+            <h3>Algorithms 📚</h3>
+            <h3>Operating systems 📚</h3>
 
           </section>
 

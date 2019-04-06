@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import HeaderGeneric from '../components/HeaderGeneric'
 
 import Layout from '../components/layout'
@@ -27,6 +28,10 @@ class Blog extends React.Component {
               <li>
                 <h2><a href="/5-reasons-why-i-enjoy-computer-science">5 reasons why I enjoy Computer Science</a></h2>
                 <h2>20/02/19</h2>
+              </li>
+              <li>
+                <h2><a href="/business-systems-coursework">Business systems coursework</a></h2>
+                <h2>05/04/19</h2>
               </li>
             </ul>
 
