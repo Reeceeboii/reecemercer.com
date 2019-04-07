@@ -36,5 +36,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-    }
+    },
+    "proxy": "http://localhost:5000"
 }
