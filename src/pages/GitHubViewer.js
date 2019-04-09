@@ -21,13 +21,20 @@ class GitHubViewer extends React.Component {
   }
 
   componentDidMount(){
+    let APIString = "";
+    if(process.env.NODE_ENV !== 'production'){
+      APIString = "/myRepoAPI"; // if not in production, requests here are proxied to local backend
+    }else{
+        APIString = "https://perosnal-site-backend.herokuapp.com/myRepoAPI"; // if in prod, Gatsby does not proxy
+    }
+
     // fetch repositories and related information
-    fetch('/myRepoAPI/get-repos-from-db')
+    fetch(`${APIString}/get-repos-from-db`)
     .then(repositories => repositories.json())
     .then(repositories => this.setState({repositories}))
 
     // fetch the number of times each language occurs in my public repositories
-    fetch('/myRepoAPI/language-stats')
+    fetch(`${APIString}/language-stats`)
     .then(languageStats => languageStats.json())
     .then(languageStats => this.setState({languageStats}))
   }

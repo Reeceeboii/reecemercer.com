@@ -30,8 +30,9 @@ module.exports = {
     },
     'gatsby-transformer-remark'
   ],
+  // note that this Gatsby proxy is only active during development
   proxy: {
     prefix: "/myRepoAPI",
-    url: "https://perosnal-site-backend.herokuapp.com",
+    url: "http://localhost:5000",
   },
 }
