@@ -1,12 +1,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { Link } from 'gatsby'
 import HeaderGeneric from '../components/HeaderGeneric'
 import Layout from '../components/layout'
 
-import { GoStar, GoRepoForked, GoCode, GoDash } from 'react-icons/go'
-
-
-import CanvasJS from 'canvasjs'
+import { GoStar, GoRepoForked, GoCode } from 'react-icons/go'
 
 
 class GitHubViewer extends React.Component {
@@ -19,10 +17,12 @@ class GitHubViewer extends React.Component {
   }
 
   componentDidMount(){
+    // fetch repositories and related information
     fetch('/myRepoAPI/get-repos-from-db')
     .then(repositories => repositories.json())
     .then(repositories => this.setState({repositories}))
 
+    // fetch the number of times each language occurs in my public repositories
     fetch('/myRepoAPI/language-stats')
     .then(languageStats => languageStats.json())
     .then(languageStats => this.setState({languageStats}))
@@ -55,7 +55,7 @@ class GitHubViewer extends React.Component {
                 ))
               }
             </ul>
-
+            <Link to="/" className="button">Return home</Link>
           </section>
         </div>
       </Layout>

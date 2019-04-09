@@ -4,6 +4,7 @@
     "version": "1.0.0",
     "author": "Hunter Chang",
     "dependencies": {
+        "chartjs": "^0.3.24",
         "gatsby": "^2.0.0",
         "gatsby-plugin-favicon": "^3.1.5",
         "gatsby-plugin-manifest": "^2.0.2",
@@ -14,7 +15,8 @@
         "gatsby-transformer-remark": "^2.2.5",
         "node-sass": "^4.9.3",
         "react": "^16.5.1",
-        "react-dom": "^16.5.1",
+        "react-chartjs": "^1.2.0",
+        "react-dom": "^16.8.6",
         "react-helmet": "^5.2.0",
         "react-icons": "^3.5.0",
         "react-scroll-to-element": "^0.2.0",
