@@ -36,7 +36,7 @@ const Nav = (props) => (
         <Scrollspy items={ ['intro', 'first', 'second', 'third', 'cta'] } currentClassName="is-active" offset={-300}>
             {
                 navItems.map( (item) => (
-                    <li>
+                    <li key={item.element}>
                         <Scroll type={item.type} element={item.element}>
                             <Link to="#">{item.text}</Link>
                         </Scroll>
