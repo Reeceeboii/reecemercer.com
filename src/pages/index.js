@@ -11,6 +11,7 @@ import me from '../assets/images/me.jpg'
 import bulb from '../assets/images/bulb.png'
 import threeD from '../assets/images/3d.png'
 import security from '../assets/images/security.png'
+import github from '../assets/images/github.png'
 
 
 class Index extends React.Component {
@@ -66,7 +67,7 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Projects</h2>
+              <h2>Featured projects</h2>
             </header>
             <ul className="features">
               <li>
@@ -88,8 +89,18 @@ class Index extends React.Component {
                 <Link to="/RSA" className="button project">Explore</Link>
               </li>
             </ul>
+            <header className="major">
+              <h2>GitHub viewer</h2>
+            </header>
+            <ul className="features">
+              <li>
+                <span className="image"><img src={github} alt="" /></span>
+                <h3>Live updated summary of my GitHub - repos, descriptions, stars, forks, language use statistics.</h3>
+                <h3><b>All in one place</b></h3>
+                <Link to="/GitHubViewer" className="button project">Visit now!</Link>
+              </li>
+            </ul>
 
-            <h2>For more things I've done, and to view the full source code for the above projects, visit my <a href="https://github.com/Reeceeboii" target="_blank" rel="noopener noreferrer">GitHub</a></h2>
           </section>
 
           <section id="second" className="main special">
