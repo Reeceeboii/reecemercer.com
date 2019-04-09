@@ -1,3 +1,4 @@
+
 module.exports = {
   siteMetadata: {
     title: "Reece Mercer",
@@ -40,4 +41,9 @@ module.exports = {
     },
     'gatsby-transformer-remark'
   ],
+  // note that this Gatsby proxy is only active during development
+  proxy: {
+    prefix: "/myRepoAPI",
+    url: "http://localhost:5000",
+  },
 }

@@ -30,6 +30,8 @@ class Index extends React.Component {
   };
 
   render() {
+    const checkEmoji = <span role="img" aria-label="Check">✔️</span>;
+    const bookEmoji = <span role="img" aria-label="Book">📚</span>;
 
     return (
       <Layout>
@@ -103,17 +105,17 @@ class Index extends React.Component {
             <header className="major">
               <h2>What I'm studying</h2>
               <h3><b>Here's a small list of the modules I'm studying this year</b></h3>
-              <h3>Completed - ✔️ | In progress - 📚</h3>
+              <h3>Completed - {checkEmoji} | In progress - {bookEmoji}</h3>
               <hr/>
             </header>
 
 
-            <h3>Programming in Java 📚</h3>
-            <h3>Discrete mathematics ✔️</h3>
-            <h3>Business systems (web development & databases) ✔️</h3>
-            <h3>Systems architecture ✔️</h3>
-            <h3>Algorithms 📚</h3>
-            <h3>Operating systems 📚</h3>
+            <h3>Programming in Java {bookEmoji}</h3>
+            <h3>Discrete mathematics {checkEmoji}</h3>
+            <h3>Business systems (web development & databases) {checkEmoji}</h3>
+            <h3>Systems architecture {checkEmoji}</h3>
+            <h3>Algorithms {bookEmoji}</h3>
+            <h3>Operating systems {bookEmoji}</h3>
 
           </section>
 
