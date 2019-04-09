@@ -80,7 +80,7 @@ class Index extends React.Component {
                 <Link to="/3DRenderer" className="button project">Explore</Link>
               </li>
               <li>
-                <span clasName="image"><img src={security} alt="" /></span>
+                <span className="image"><img src={security} alt="" /></span>
                 <h3>RSA</h3>
                 <p>Fully functional implementation of the RSA asymmetric cryptography system. Keygen, encryption and decryption.</p>
                 <Link to="/RSA" className="button project">Explore</Link>
