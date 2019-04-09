@@ -6,6 +6,10 @@ import Layout from '../components/layout'
 
 import { GoStar, GoRepoForked, GoCode } from 'react-icons/go'
 
+import ReactChartkick, { PieChart } from 'react-chartkick'
+import Chart from 'chart.js'
+
+ReactChartkick.addAdapter(Chart)
 
 class GitHubViewer extends React.Component {
   constructor(props){
@@ -41,7 +45,6 @@ class GitHubViewer extends React.Component {
             <header className="major">
               <h2>Public repositories</h2>
             </header>
-
             <ul className="features">
               {
                 this.state.repositories.map(repo => (
@@ -55,8 +58,16 @@ class GitHubViewer extends React.Component {
                 ))
               }
             </ul>
+
+            <header className="major">
+              <h2>Statistics</h2>
+            </header>
+            <h2>Language distribution over public repositories</h2>
+            <PieChart data={this.state.languageStats}/>
+
             <Link to="/" className="button">Return home</Link>
           </section>
+
         </div>
       </Layout>
     )

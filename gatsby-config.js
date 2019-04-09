@@ -32,6 +32,6 @@ module.exports = {
   ],
   proxy: {
     prefix: "/myRepoAPI",
-    url: "http://localhost:5000",
+    url: "https://perosnal-site-backend.herokuapp.com",
   },
 }
