@@ -13,6 +13,8 @@ import threeD from '../assets/images/3d.png'
 import security from '../assets/images/security.png'
 import github from '../assets/images/github.png'
 
+import { MdFiberNew } from 'react-icons/md'
+
 
 class Index extends React.Component {
   constructor(props) {
@@ -33,6 +35,7 @@ class Index extends React.Component {
   render() {
     const checkEmoji = <span role="img" aria-label="Check">✔️</span>;
     const bookEmoji = <span role="img" aria-label="Book">📚</span>;
+    const rocketEmoji = <span role="img" aria-label="Rocket">🚀</span>;
 
     return (
       <Layout>
@@ -89,15 +92,17 @@ class Index extends React.Component {
                 <Link to="/RSA" className="button project">Explore</Link>
               </li>
             </ul>
+            <hr/>
             <header className="major">
-              <h2>GitHub viewer</h2>
+              <h2><b>New</b> - GitHub viewer</h2>
+
             </header>
             <ul className="features">
               <li>
                 <span className="image"><img src={github} alt="" /></span>
                 <h3>Live updated summary of my GitHub - repos, descriptions, stars, forks, language use statistics.</h3>
-                <h3><b>All in one place</b></h3>
-                <Link to="/GitHubViewer" className="button project">Visit now!</Link>
+                <h3><b>All in one place.</b></h3>
+                <Link to="/GitHubViewer" className="button">Visit now {rocketEmoji}</Link>
               </li>
             </ul>
 
@@ -108,7 +113,7 @@ class Index extends React.Component {
             <h2>Blog</h2>
             <br/>
             <p>Reece's Rambles, my corner of the web for talking about tech, studies and anything else I'm up to</p>
-            <Link to="/Blog" className="button project">Visit my blog!</Link>
+            <Link to="/Blog" className="button">Visit my blog</Link>
             </header>
           </section>
 

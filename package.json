@@ -1,8 +1,8 @@
 {
-    "name": "gatsby-starter-stellar",
-    "description": "Gatsby Starter - Stellar by HTML5 UP",
+    "name": "reece-mercer",
+    "description": "Personal website and portfolio",
     "version": "1.0.0",
-    "author": "Hunter Chang",
+    "author": "Reece Mercer",
     "dependencies": {
         "chart.js": "^2.8.0",
         "gatsby": "^2.0.0",

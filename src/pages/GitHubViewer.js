@@ -15,11 +15,12 @@ class GitHubViewer extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      repositories: [],
-      languageStats: {}
+      repositories: [], // array of repositories
+      languageStats: {} // object of {language: occurence} for all of this.state.repositories
     }
   }
 
+  // fetch data on component mount
   componentDidMount(){
     let APIString = "";
     if(process.env.NODE_ENV !== 'production'){
@@ -56,7 +57,7 @@ class GitHubViewer extends React.Component {
               {
                 this.state.repositories.map(repo => (
                   <li key={repo._id} style={{background: "#dddddd", borderRadius: "25px"}}>
-                    <h3><a href={repo.link}>{repo.name}</a></h3>
+                    <h3><a href={repo.link} target="_blank" rel="noopener noreferrer">{repo.name}</a></h3>
                     <GoStar/>{repo.starCount}
                     <GoRepoForked/>{repo.forks}
                     <GoCode/>{repo.language}
