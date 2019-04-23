@@ -13,8 +13,6 @@ import threeD from '../assets/images/3d.png'
 import security from '../assets/images/security.png'
 import github from '../assets/images/github.png'
 
-import { MdFiberNew } from 'react-icons/md'
-
 
 class Index extends React.Component {
   constructor(props) {
@@ -39,7 +37,7 @@ class Index extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Reece Mercer" />
+        <Helmet title="Reece Mercer"/>
 
         <Header />
 
