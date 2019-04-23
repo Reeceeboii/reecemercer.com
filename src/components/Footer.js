@@ -21,8 +21,10 @@ const Footer = (props) => (
           <dl className="alt">
             <dt>Blog</dt>
             <dd><Link to="/Blog">Visit my blog</Link></dd>
-            <dt>GitHub Viewer</dt>
-            <dd><Link to="/GitHubViewer">Visit my new GitHub Viewer!</Link></dd>
+            <dt>Viewer</dt>
+            <dd><Link to="/GitHubViewer">Visit my GitHub Viewer!</Link></dd>
+            <dt>Privacy</dt>
+            <dd><Link to="/Privacy">My privacy policy in accordance with Google Analytics</Link></dd>
           </dl>
         </section>
         <p className="copyright">&copy; Reece Mercer 2019</p>
