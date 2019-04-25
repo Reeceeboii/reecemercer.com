@@ -48,7 +48,9 @@ title: "Business Systems module coursework"
 
 # Just show me the damn site already!
 
-### Fine fine, [you can visit the site by clicking here](https://www.aczg110.co.uk)
+### Fine fine, [you can visit the site by clicking here](http://www.aczg110.co.uk)
+
+### But first, please read the updates in the [README file](https://github.com/Reeceeboii/MercerMotors/blob/master/README.md)
 *Please keep in mind that the repo for this site is public and other students know it exists. I cannot be held responsible for anything untoward that they may upload.*
 
 ###I decided to go with an e-commerce type of site, centered around buying and selling cars. After some brief planning, I knew I wanted to have the ability to buy cars as well as list ones to sell.
