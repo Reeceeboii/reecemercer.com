@@ -124,12 +124,12 @@ class Index extends React.Component {
             </header>
 
 
-            <h3>Programming in Java {bookEmoji}</h3>
+            <h3>Programming in Java {checkEmoji}</h3>
             <h3>Discrete mathematics {checkEmoji}</h3>
             <h3>Business systems (web development & databases) {checkEmoji}</h3>
             <h3>Systems architecture {checkEmoji}</h3>
-            <h3>Algorithms {bookEmoji}</h3>
-            <h3>Operating systems {bookEmoji}</h3>
+            <h3>Algorithms {checkEmoji}</h3>
+            <h3>Operating systems {checkEmoji}</h3>
 
           </section>
 
