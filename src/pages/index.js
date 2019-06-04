@@ -31,9 +31,10 @@ class Index extends React.Component {
   };
 
   render() {
-    const checkEmoji = <span role="img" aria-label="Check">✔️</span>;
+    const graduationEmoji = <span role="img" aria-label="Graduation Cap">🎓</span>;
     const bookEmoji = <span role="img" aria-label="Book">📚</span>;
     const rocketEmoji = <span role="img" aria-label="Rocket">🚀</span>;
+    const lockedEmoji = <span role="img" aria-label="Lock">🔒</span>;
 
     return (
       <Layout>
@@ -92,7 +93,7 @@ class Index extends React.Component {
             </ul>
             <hr/>
             <header className="major">
-              <h2><b>New</b> - GitHub viewer</h2>
+              <h2>GitHub viewer</h2>
 
             </header>
             <ul className="features">
@@ -115,23 +116,40 @@ class Index extends React.Component {
             </header>
           </section>
 
+
           <section id="third" className="main special">
             <header className="major">
               <h2>What I'm studying</h2>
-              <h3><b>Here's a small list of the modules I'm studying this year</b></h3>
-              <h3>Completed - {checkEmoji} | In progress - {bookEmoji}</h3>
+              <h3><b>Here's a small list of the modules I have either completed
+              or am soon going to be studying</b></h3>
+              <h3>Completed - {graduationEmoji} | In progress - {bookEmoji} | Soon to be studying - {lockedEmoji}</h3>
               <hr/>
             </header>
 
+            <ul className="features">
+              <li>
+                <h2><b>First year</b></h2>
+                <h3>Programming in Java {graduationEmoji}</h3>
+                <h3>Discrete mathematics {graduationEmoji}</h3>
+                <h3>Business systems (web development & databases) {graduationEmoji}</h3>
+                <h3>Systems architecture {graduationEmoji}</h3>
+                <h3>Algorithms {graduationEmoji}</h3>
+                <h3>Operating systems {graduationEmoji}</h3>
+              </li>
 
-            <h3>Programming in Java {checkEmoji}</h3>
-            <h3>Discrete mathematics {checkEmoji}</h3>
-            <h3>Business systems (web development & databases) {checkEmoji}</h3>
-            <h3>Systems architecture {checkEmoji}</h3>
-            <h3>Algorithms {checkEmoji}</h3>
-            <h3>Operating systems {checkEmoji}</h3>
-
+              <li>
+                <h2><b>Second year</b></h2>
+                <h3>Data structures and algorithms {lockedEmoji}</h3>
+                <h3>Programming in C++ {lockedEmoji}</h3>
+                <h3>Language processors {lockedEmoji}</h3>
+                <h3>Computer networks {lockedEmoji}</h3>
+                <h3>Object orientated analysis and design {lockedEmoji}</h3>
+                <h3>Professional development in IT {lockedEmoji}</h3>
+                <h3>Team project {lockedEmoji}</h3>
+              </li>
+            </ul>
           </section>
+
 
           <section id="cta" className="main special">
             <header className="major">
