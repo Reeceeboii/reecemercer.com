@@ -2,7 +2,6 @@
 path: "/business-systems-coursework"
 date: "05/04/19"
 title: "Business Systems module coursework"
-
 ---
 
 ###The first year of university is basically done, and I honestly swear I've done more programming in this last year than I have since I first started programming way back in secondary school. I've learnt an absolutely insane amount of content in a relatively small amount of time and I've loved every single second of it.

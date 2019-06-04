@@ -1,6 +1,6 @@
 ---
 path: "/new-blog"
-date: "20/02/19"
+date: "19/02/19"
 title: "Welcome to my (soon to be) new blog!"
 ---
 
