@@ -22,7 +22,7 @@ const Footer = (props) => (
             <dt>Blog</dt>
             <dd><Link to="/Blog">Visit my blog</Link></dd>
             <dt>Viewer</dt>
-            <dd><Link to="/GitHubViewer">Visit my GitHub Viewer!</Link></dd>
+            <dd><Link to="/GitHubViewer">Visit my GitHub Viewer</Link></dd>
             <dt>Privacy</dt>
             <dd><Link to="/Privacy">My privacy policy in accordance with Google Analytics</Link></dd>
           </dl>
