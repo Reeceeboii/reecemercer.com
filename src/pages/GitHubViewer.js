@@ -26,7 +26,7 @@ class GitHubViewer extends React.Component {
     if(process.env.NODE_ENV !== 'production'){
       APIString = "/myRepoAPI"; // if not in production, requests here are proxied to local backend
     }else{
-        APIString = "https://perosnal-site-backend.herokuapp.com/myRepoAPI"; // if in prod, Gatsby does not proxy
+        APIString = "https://personal-site-backend.herokuapp.com/myRepoAPI"; // if in prod, Gatsby does not proxy
     }
 
     // fetch repositories and related information
