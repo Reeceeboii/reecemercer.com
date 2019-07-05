@@ -128,17 +128,17 @@ class Index extends React.Component {
 
             <ul className="features">
               <li>
-                <h2><b>First year</b></h2>
-                <h3>Programming in Java {graduationEmoji}</h3>
-                <h3>Discrete mathematics {graduationEmoji}</h3>
-                <h3>Business systems (web development & databases) {graduationEmoji}</h3>
-                <h3>Systems architecture {graduationEmoji}</h3>
-                <h3>Algorithms {graduationEmoji}</h3>
-                <h3>Operating systems {graduationEmoji}</h3>
+                <h2><b>Year 1 - 1st Overall</b></h2>
+                <h3>Programming in Java {graduationEmoji} - 1st</h3>
+                <h3>Discrete mathematics {graduationEmoji} - 1st</h3>
+                <h3>Business systems (web development & databases) {graduationEmoji} - 1st</h3>
+                <h3>Systems architecture {graduationEmoji} - 1st</h3>
+                <h3>Algorithms {graduationEmoji} - 1st</h3>
+                <h3>Operating systems {graduationEmoji} - 1st</h3>
               </li>
 
               <li>
-                <h2><b>Second year</b></h2>
+                <h2><b>Year 2</b></h2>
                 <h3>Data structures and algorithms {lockedEmoji}</h3>
                 <h3>Programming in C++ {lockedEmoji}</h3>
                 <h3>Language processors {lockedEmoji}</h3>

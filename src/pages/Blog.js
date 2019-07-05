@@ -26,6 +26,11 @@ const posts = [
     path: "/end-of-year-1",
     title: "End of year 1",
     date: "04/06/19"
+  },
+  {
+    path: "/new-photography-website",
+    title: "Launching my new photography website!",
+    date: "05/07/19"
   }
 ]
 
@@ -35,7 +40,6 @@ class Blog extends React.Component {
       <Layout>
         <Helmet title="Blog"/>
         <HeaderGeneric headerText="Reece's Rambles" paragraphText="Slightly interesting content from someone who spends too long sat at his computer"/>
-
         <div id="main">
           <section className="main special">
             <header className="major">
@@ -52,12 +56,9 @@ class Blog extends React.Component {
                 ))
               }
             </ul>
-
             <Link to="/" className="button">Return home</Link>
           </section>
         </div>
-
-
       </Layout>
     )
   }
