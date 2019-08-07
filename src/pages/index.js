@@ -60,7 +60,7 @@ class Index extends React.Component {
                 <p>I am currently a full time first year student at City, University of London, studying Computer Science with Cyber Security.</p>
                 <p>I am also an avid programmer, scroll down to view some of my projects and see the kind of things I'm interested in!</p>
                 <ul className="actions">
-                  <li><Link to="/about" className="button">Learn some more about me</Link></li>
+                  <li><Link to="/Profile" className="button">Learn some more about me</Link></li>
                 </ul>
               </div>
               <span className="image"><img src={me} alt="" /></span>

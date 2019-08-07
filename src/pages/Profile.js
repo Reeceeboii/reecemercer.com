@@ -16,6 +16,8 @@ class Profile extends React.Component {
         <div id="main">
           <section id="content" className="main">
             <span className="image main"><img src={circuit} alt="" /></span>
+            <h1>New profile page under development...</h1>
+            <h3>Check back later :)</h3>
 
             <ul className="actions">
               <li><Link to="/" className="button">Return home</Link></li>
