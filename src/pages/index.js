@@ -8,10 +8,10 @@ import Header from '../components/Header'
 import Nav from '../components/Nav'
 
 import me from '../assets/images/me.jpg'
-import bulb from '../assets/images/bulb.png'
-import threeD from '../assets/images/3d.png'
-import security from '../assets/images/security.png'
-import github from '../assets/images/github.png'
+import gallery from '../assets/images/gallery.svg'
+import threeD from '../assets/images/cube.svg'
+import security from '../assets/images/security.svg'
+import github from '../assets/images/github.svg'
 
 
 class Index extends React.Component {
@@ -73,19 +73,19 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="image"><img src={bulb} alt="" /></span>
-                <h3>HueHub</h3>
-                <p>Client software for interfacing with the Philips Hue API and controlling smart bulbs.</p>
-                <Link to="/HueHub" className="button project">Explore</Link>
+                <span className="image"><img width="128px" src={gallery} alt="" /></span>
+                <h3>Photography Website</h3>
+                <p>ReactJS frontend with a NodeJS backend - using an AWS S3 bucket for media storage</p>
+                <Link to="/Photography" className="button project">Explore</Link>
               </li>
               <li>
-                <span className="image"><img src={threeD} alt="" /></span>
+                <span className="image"><img width="128px" src={threeD} alt="" /></span>
                 <h3>3D renderer</h3>
                 <p>A 3D model renderer, built using OpenGL. Vertex buffer objects, vertex arrays and basic shaders.</p>
                 <Link to="/3DRenderer" className="button project">Explore</Link>
               </li>
               <li>
-                <span className="image"><img src={security} alt="" /></span>
+                <span className="image"><img width="128px" src={security} alt="" /></span>
                 <h3>RSA</h3>
                 <p>Fully functional implementation of the RSA asymmetric cryptography system. Keygen, encryption and decryption.</p>
                 <Link to="/RSA" className="button project">Explore</Link>
@@ -98,7 +98,7 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="image"><img src={github} alt="" /></span>
+                <span className="image"><img width="128px" src={github} alt="" /></span>
                 <h3>Live updated summary of my GitHub - repos, descriptions, stars, forks, language use statistics.</h3>
                 <h3><b>All in one place.</b></h3>
                 <Link to="/GitHubViewer" className="button">Visit now {rocketEmoji}</Link>
