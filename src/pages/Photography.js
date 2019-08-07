@@ -69,7 +69,7 @@ class Photography extends React.Component {
                 when I could throw together a perfectly functional Python script to do the exact same thing in half the time, and then just run that over
                 a set of images before they were uploaded.`}</p>
 
-            <p>{`I wrote a small wrapper around the ImageMagick libraries and added things like file remaining with UUID4 (universally unique identifier)
+            <p>{`I wrote a small wrapper around the ImageMagick libraries and added things like file renaming with UUID4 (universally unique identifier)
                 to avoid filename clashes on the server despite the camera's repetitive file naming system. This makes for quite a streamline system. I take pictures,
                 compress and rename them (all done via 1 command thanks to my script) and then just upload them to my S3 bucket. And bang, they're instantly live on the site.
                 The users load the compressed and light files on the site, and then go externally to the public S3 link to get the full resolution file if they want it.
