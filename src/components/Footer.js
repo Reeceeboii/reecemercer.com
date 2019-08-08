@@ -4,12 +4,10 @@ import { Link } from 'gatsby';
 const Footer = (props) => (
     <footer id="footer">
         <section>
-            <h2><u>Contact information</u></h2>
+            <h2><u>Contacts & Socials</u></h2>
             <dl className="alt">
                 <dt>Email</dt>
                 <dd><a href="mailto:reecemercer@outlook.com">reecemercer@outlook.com</a></dd>
-                <dt>LinkedIn</dt>
-                <dd><a href="https://www.linkedin.com/in/reece-mercer/" target="_blank" rel="noopener noreferrer">Connect with me!</a></dd>
             </dl>
             <ul className="icons">
                <li><a href="https://github.com/Reeceeboii" target="_blank" rel="noopener noreferrer" className="icon fa-github alt"><span className="label"/></a></li>
@@ -25,6 +23,8 @@ const Footer = (props) => (
             <dd><Link to="/GitHubViewer">Visit my GitHub Viewer</Link></dd>
             <dt>Privacy</dt>
             <dd><Link to="/Privacy">My privacy policy in accordance with Google Analytics</Link></dd>
+            <dt>Photos</dt>
+            <dd><a href="https://photography.reecemercer.dev" target="_blank" rel="noopener noreferrer">Visit my photography site</a></dd>
           </dl>
         </section>
         <p className="copyright">&copy; Reece Mercer 2019</p>

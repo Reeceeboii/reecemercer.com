@@ -151,7 +151,7 @@ class Index extends React.Component {
           </section>
 
 
-          <section id="cta" className="main special">
+          <section id="contact" className="main special">
             <header className="major">
               <h2>Contact and other info</h2>
               <h3>You can email me at <a href="mailto:reecemercer@outlook.com">reecemercer@outlook.com</a>,</h3>
