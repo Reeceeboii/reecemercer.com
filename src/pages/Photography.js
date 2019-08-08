@@ -14,10 +14,6 @@ import image from '../assets/images/PhotographySite/image-component.png'
 import grid from '../assets/images/PhotographySite/grid.png'
 
 
-
-
-
-
 class Photography extends React.Component {
   render() {
     return (
@@ -78,8 +74,6 @@ class Photography extends React.Component {
 
 
                 <h3 style={{textAlign: `center`}}>You can also visit the site for yourself! - <a href="https://photography.reecemercer.dev" target="_blank" rel="noopener noreferrer">photography.reecemercer.dev</a></h3>
-
-
             <ul className="actions">
               <li><Link to="/" className="button">Return home</Link></li>
             </ul>
