@@ -31,10 +31,7 @@ class Index extends React.Component {
   };
 
   render() {
-    const graduationEmoji = <span role="img" aria-label="Graduation Cap">🎓</span>;
-    const bookEmoji = <span role="img" aria-label="Book">📚</span>;
     const rocketEmoji = <span role="img" aria-label="Rocket">🚀</span>;
-    const lockedEmoji = <span role="img" aria-label="Lock">🔒</span>;
 
     return (
       <Layout>
@@ -115,41 +112,6 @@ class Index extends React.Component {
             <Link to="/Blog" className="button">Visit my blog</Link>
             </header>
           </section>
-
-
-          <section id="third" className="main special">
-            <header className="major">
-              <h2>What I'm studying</h2>
-              <h3><b>Here's a small list of the modules I have either completed
-              or am soon going to be studying</b></h3>
-              <h3>Completed - {graduationEmoji} | In progress - {bookEmoji} | Soon to be studying - {lockedEmoji}</h3>
-              <hr/>
-            </header>
-
-            <ul className="features">
-              <li>
-                <h2><b>Year 1 - 1st Overall</b></h2>
-                <h3>Programming in Java {graduationEmoji} - 1st</h3>
-                <h3>Discrete mathematics {graduationEmoji} - 1st</h3>
-                <h3>Business systems (web development & databases) {graduationEmoji} - 1st</h3>
-                <h3>Systems architecture {graduationEmoji} - 1st</h3>
-                <h3>Algorithms {graduationEmoji} - 1st</h3>
-                <h3>Operating systems {graduationEmoji} - 1st</h3>
-              </li>
-
-              <li>
-                <h2><b>Year 2</b></h2>
-                <h3>Data structures and algorithms {lockedEmoji}</h3>
-                <h3>Programming in C++ {lockedEmoji}</h3>
-                <h3>Language processors {lockedEmoji}</h3>
-                <h3>Computer networks {lockedEmoji}</h3>
-                <h3>Object orientated analysis and design {lockedEmoji}</h3>
-                <h3>Professional development in IT {lockedEmoji}</h3>
-                <h3>Team project {lockedEmoji}</h3>
-              </li>
-            </ul>
-          </section>
-
 
           <section id="contact" className="main special">
             <header className="major">
