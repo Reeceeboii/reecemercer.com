@@ -6,8 +6,9 @@ const Footer = (props) => (
         <section>
             <h2><u>Contacts & Socials</u></h2>
             <dl className="alt">
-                <dt>Email</dt>
+                <dt>Emails</dt>
                 <dd><a href="mailto:reecemercer@outlook.com">reecemercer@outlook.com</a></dd>
+                <dd><a href="mailto:reece.mercer@city.ac.uk">reece.mercer@city.ac.uk</a></dd>
             </dl>
             <ul className="icons">
                <li><a href="https://github.com/Reeceeboii" target="_blank" rel="noopener noreferrer" className="icon fa-github alt"><span className="label"/></a></li>
@@ -27,7 +28,7 @@ const Footer = (props) => (
             <dd><a href="https://photography.reecemercer.dev" target="_blank" rel="noopener noreferrer">Visit my photography site</a></dd>
           </dl>
         </section>
-        <p className="copyright">&copy; Reece Mercer 2019</p>
+        <p className="copyright">&copy; {new Date().getFullYear()} Reece Mercer</p>
     </footer>
 );
 
