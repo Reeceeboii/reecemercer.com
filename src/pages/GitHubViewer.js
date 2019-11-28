@@ -1,13 +1,14 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import { Link } from 'gatsby'
-import HeaderGeneric from '../components/HeaderGeneric'
-import Layout from '../components/layout'
+import React from 'react';
+import Helmet from 'react-helmet';
+import { Link } from 'gatsby';
+import HeaderGeneric from '../components/HeaderGeneric';
+import Layout from '../components/layout';
+import APIDev from '../misc-modules/APIDev';
+import APIProd from '../misc-modules/APIProd';
+import { GoStar, GoRepoForked, GoCode } from 'react-icons/go';
 
-import { GoStar, GoRepoForked, GoCode } from 'react-icons/go'
-
-import ReactChartkick, { PieChart } from 'react-chartkick'
-import Chart from 'chart.js'
+import ReactChartkick, { PieChart } from 'react-chartkick';
+import Chart from 'chart.js';
 
 ReactChartkick.addAdapter(Chart)
 
@@ -22,14 +23,8 @@ class GitHubViewer extends React.Component {
 
   // fetch data on component mount
   componentDidMount(){
-    let APIString = "";
-    if(process.env.NODE_ENV !== 'production'){
-      APIString = "/myRepoAPI"; // if not in production, requests here are proxied to local backend
-    }else{
-        APIString = "https://rm-backend-services.herokuapp.com/myRepoAPI"; // if in prod, Gatsby does not proxy
-    }
-
     // fetch repositories and related information
+    const APIString = process.env.NODE_ENV === 'production' ? APIProd + "myRepoAPI": APIDev;
     fetch(`${APIString}/get-repos-from-db`)
     .then(repositories => repositories.json())
     .then(repositories => this.setState({repositories}))

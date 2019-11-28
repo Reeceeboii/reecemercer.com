@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby';
+import APIProd from '../misc-modules/APIProd';
 
 const Footer = (props) => (
     <footer id="footer">
@@ -18,12 +19,10 @@ const Footer = (props) => (
         <section>
           <h2><u>Other</u></h2>
           <dl className="alt">
-            <dt>Blog</dt>
-            <dd><Link to="/Blog">Visit my blog</Link></dd>
-            <dt>Viewer</dt>
-            <dd><Link to="/GitHubViewer">Visit my GitHub Viewer</Link></dd>
+            <dt>API</dt>
+            <dd><a href={APIProd}>API</a></dd>
             <dt>Privacy</dt>
-            <dd><Link to="/Privacy">My privacy policy in accordance with Google Analytics</Link></dd>
+            <dd><Link to="/Privacy">Privacy policy</Link></dd>
             <dt>Photos</dt>
             <dd><a href="https://photography.reecemercer.dev" target="_blank" rel="noopener noreferrer">Visit my photography site</a></dd>
           </dl>
@@ -32,4 +31,4 @@ const Footer = (props) => (
     </footer>
 );
 
-export default Footer
+export default Footer;
