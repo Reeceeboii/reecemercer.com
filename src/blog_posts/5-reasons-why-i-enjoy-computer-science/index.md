@@ -1,10 +1,10 @@
 ---
 path: "/5-reasons-why-i-enjoy-computer-science"
-date: "20/02/19"
+date: "2019-02-22"
 title: "5 reasons why I enjoy Computer Science"
 ---
 
-###I knew from quite a young age that computers were something I absolutely loved. Not even just the actual computers themselves, but any kind of technology. I remember always wanting to get a hold of any old electronics, like VHS or DVD players, and wanting to take them to pieces to see what they were like on the inside. Not that I had the first clue how they worked at that age, but just looking at circuit boards seemed crazy to me. *This green plastic thing with some metal bits attached somehow plays DVD's?* Skip a few (or more) years and here I am at university studying the subject I absolutely live for, and loving every second of it. Here are 5 of the main reasons why I personally enjoy the subject, and why I think a lot more people should be giving it a go.
+###I knew from quite a young age that computers were something I absolutely loved. Not even just the actual computers themselves, but any kind of technology. I remember always wanting to get a hold of any old electronics, like VHS or DVD players, and wanting to take them to pieces to see what they were like on the inside. Not that I had the first clue how they worked at that age, but just looking at circuit boards seemed crazy to me. *This green plastic thing with some metal bits attached somehow plays DVD's?* Skip a few (or more) years and here I am at university studying the subject I absolutely live for, and loving every second of it. Here are a few of the reasons why I personally enjoy the subject, and why I think a lot more people should be giving it a go.
 
 &nbsp
 
@@ -13,7 +13,7 @@ title: "5 reasons why I enjoy Computer Science"
 
 >### 'A CPU is literally a rock that we tricked into thinking' ...
 
-### ... is a quote I think summarises this point quite well. Humans have gone from looking up at star constellations as prehistoric cavemen to powering self-landing rockets with chips smaller than the palm of your hand in only a few hundred thousand years (a very small evolutionary time period). Just think about that for a second. The metals and sand being used for crafting primitive objects those thousands of years ago are now the transistors and silicone in the computer chips powering the rockets taking us into outer space. I cannot express in words how amazing I find this 😂, and I hope anyone else reading this appreciates it as much as I do. People labelling computer science as 'boring' or 'nerdy' need to embrace their inner nerd and come and learn this stuff - it's  incredible.
+### ... is a quote I think summarises this point quite well. Humans have gone from looking up at star constellations as prehistoric cavemen to powering autonomously-landing rockets with chips smaller than the palm of your hand in only a few hundred thousand years (a very small evolutionary time period). Just think about that for a second. The metals and sand being used for crafting primitive objects those thousands of years ago are now the transistors and silicone in the computer chips powering the rockets taking us into outer space. I cannot express in words how amazing I find this! And I hope anyone else reading this appreciates it as much as I do. People labelling computer science as 'boring' or 'nerdy' need to embrace their inner nerd and come and learn this stuff - it's incredible.
 
 &nbsp
 

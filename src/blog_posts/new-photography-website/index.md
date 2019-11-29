@@ -1,6 +1,6 @@
 ---
 path: "/new-photography-website"
-date: "05/07/19"
+date: "2019-07-05"
 title: "Launching my new photography website"
 ---
 
@@ -12,7 +12,7 @@ title: "Launching my new photography website"
 # Languages, frameworks and large media hosting
 ###The site is using a NodeJS backend with a ReactJS frontend. In fact, the backend in use on this site is the same one in use on the new photography site. I just set up separate endpoints and got to work. Since the site has to host high resolution and large file size images, hosting the images on GitHub would've been a bad idea. GitHub isn't really designed to store all the media that goes along with a website, in theory it's just for the source code. So I needed a new place to store things.
 
-###I looked into a few different CDN's (content delivery networks), but soon realised that they generally had way too many features and complications than made it worth it for what I was doing. I only needed to store and then programmatically access image files. They didn't need versioning or any fancy editing facilities that I'd have got with a CDN.
+###I looked into a few different CMS's (Content Management Systems), but soon realised that they generally had way too many features and complications than made it worth it for what I was doing. I only needed to store and then programmatically access image files. They didn't need versioning or any fancy editing facilities that I'd have got with a CMS.
 
 ###After some thought I went with an Amazon Web Services (AWS) S3 Storage Bucket. These allow easy access rights settings (I can quickly allow global public read access on an uploaded object while knowing that nobody except me could access the right to delete). As an added bonus, the server space is SUPER super cheap. I could be storing 100's of GB of media and still be paying less than £10 a month for it. And the price per request is so small it's essentially not worth counting in this case. I'm clearly not going to be storing hundreds of gigs of photos anytime soon, but it's always nice to know the space and economics to scale is there if I need it.
 

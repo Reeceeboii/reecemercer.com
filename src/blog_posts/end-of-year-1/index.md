@@ -1,6 +1,6 @@
 ---
 path: "/end-of-year-1"
-date: "04/06/19"
+date: "2019-06-04"
 title: "The end of my first year at university"
 ---
 

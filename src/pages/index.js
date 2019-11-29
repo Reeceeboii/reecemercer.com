@@ -1,17 +1,17 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import Helmet from 'react-helmet'
-import Waypoint from 'react-waypoint'
+import React from 'react';
+import { Link } from 'gatsby';
+import Helmet from 'react-helmet';
+import Waypoint from 'react-waypoint';
 
-import Layout from '../components/layout'
-import Header from '../components/Header'
-import Nav from '../components/Nav'
+import Layout from '../components/layout';
+import Header from '../components/Header';
+import Nav from '../components/Nav';
 
-import me from '../assets/images/me.jpg'
-import gallery from '../assets/images/gallery.svg'
-import threeD from '../assets/images/cube.svg'
-import security from '../assets/images/security.svg'
-import github from '../assets/images/github.svg'
+import me from '../assets/images/me.jpg';
+import gallery from '../assets/images/gallery.svg';
+import threeD from '../assets/images/cube.svg';
+import security from '../assets/images/security.svg';
+import github from '../assets/images/github.svg';
 
 
 class Index extends React.Component {
@@ -127,4 +127,4 @@ class Index extends React.Component {
   }
 }
 
-export default Index
+export default Index;
