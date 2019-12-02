@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'gatsby';
 import APIProd from '../misc-modules/APIProd';
 
@@ -20,7 +20,7 @@ const Footer = (props) => (
           <h2><u>Other</u></h2>
           <dl className="alt">
             <dt>API</dt>
-            <dd><a href={APIProd}>API</a></dd>
+            <dd><a href={APIProd} target="_blank" rel="noopener noreferrer">API</a></dd>
             <dt>Privacy</dt>
             <dd><Link to="/Privacy">Privacy policy</Link></dd>
             <dt>Photos</dt>

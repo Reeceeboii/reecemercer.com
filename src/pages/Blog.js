@@ -20,12 +20,11 @@ const Blog = (props) => {
           <ul className="features">
             {
               posts.map(post => (
-                <li style={{background: "#eee", borderRadius: "10px"}}>
-                  <h3><a href={post.node.frontmatter.path}>{post.node.frontmatter.title}</a></h3>
-                  <hr style={{margin: "2px"}}/>
-                  {post.node.frontmatter.date}
-                  <hr style={{margin: "2px"}}/>
-                  <p>{post.node.excerpt}</p>
+                <li>
+                  <h3><Link to={post.node.frontmatter.path}>{post.node.frontmatter.title}</Link></h3>
+                    <h4>{post.node.frontmatter.date}</h4>
+                    <p>{post.node.excerpt}</p>
+
                 </li>
               ))
             }
@@ -48,7 +47,6 @@ export const pageQuery = graphql`
       edges {
         node {
           excerpt
-          timeToRead
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title

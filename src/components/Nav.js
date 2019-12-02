@@ -1,7 +1,7 @@
-import React from 'react'
-import Scrollspy from 'react-scrollspy'
-import Scroll from './Scroll'
-import { Link } from 'gatsby'
+import React from 'react';
+import Scrollspy from 'react-scrollspy';
+import Scroll from './Scroll';
+import { Link } from 'gatsby';
 
 const navItems = [
     {
@@ -11,12 +11,17 @@ const navItems = [
     },
     {
         type: "id",
-        element: "first",
+        element: "projects",
         text: "Projects"
     },
     {
         type: "id",
-        element: "second",
+        element: "github",
+        text: "GitHub Viewer"
+    },
+    {
+        type: "id",
+        element: "blog",
         text: "Blog"
     },
     {
@@ -28,7 +33,7 @@ const navItems = [
 
 const Nav = (props) => (
     <nav id="nav" className={props.sticky ? 'alt' : ''}>
-        <Scrollspy items={ ['intro', 'first', 'second', 'contact'] } currentClassName="is-active" offset={-300}>
+        <Scrollspy items={ ['intro', 'projects', 'github', 'blog', 'contact'] } currentClassName="is-active" offset={-300}>
             {
                 navItems.map( (item) => (
                     <li key={item.element}>
@@ -42,4 +47,4 @@ const Nav = (props) => (
     </nav>
 )
 
-export default Nav
+export default Nav;

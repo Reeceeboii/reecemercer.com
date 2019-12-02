@@ -19,9 +19,9 @@
         "react-chartkick": "^0.3.0",
         "react-dom": "^16.8.6",
         "react-helmet": "^5.2.0",
-        "react-icons": "^3.5.0",
+        "react-icons": "^3.8.0",
         "react-scroll-to-element": "^0.2.0",
-        "react-scrollspy": "^3.3.5",
+        "react-scrollspy": "^3.4.2",
         "react-waypoint": "^8.0.3"
     },
     "keywords": [

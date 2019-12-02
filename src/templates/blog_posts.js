@@ -34,7 +34,7 @@ export const postQuery = graphql`
             frontmatter {
             path
             title
-            date
+            date(formatString: "MMMM DD, YYYY")
             }
         }
     }
