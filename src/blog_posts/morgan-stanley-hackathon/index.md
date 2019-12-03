@@ -82,7 +82,7 @@ After mucking around with some naive approaches using simple averages, we eventu
 
 By taking one sequence number (say 21) and dividing it by the next member of the sequence, you get the **Fibionacci Ratio**, which is approximately equal to 0.618. This number occurs in an abundance of uncanny places in the world. Take a sunflower, for example. Over the course of its evolutionary history, the sunflower has evolved to grow its seeds in tightly clustered spirals.
 
-![](https://media.treehugger.com/assets/images/2012/08/71044124-th.jpg)
+![https://www.treehugger.com/slideshows/natural-sciences/nature-blows-my-mind-hypnotic-patterns-sunflowers/](sunflower.jpeg)
 
 But, the interesting thing here is that in order to maximise the number of seeds it can hold in these clusters, the sunflower has evolved towards a 0.618 degree rotation between each seed pod. The golden ratio is fundamental to the sunflower's reproductive success. There is a cool interacive example of this on [mathsisfun.com](https://www.mathsisfun.com/numbers/nature-golden-ratio-fibonacci.html) that you can try to see this for yourselves.
 
