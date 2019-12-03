@@ -1,4 +1,3 @@
-
 module.exports = {
   siteMetadata: {
     title: "Reece Mercer",
@@ -39,7 +38,21 @@ module.exports = {
             name: 'blog_posts'
         }
     },
-    'gatsby-transformer-remark'
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [{
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 850,
+              quality: 100,
+            },
+          },
+          'gatsby-remark-prismjs',
+        ]
+      }
+    },
   ],
   // note that this Gatsby proxy is only active during development
   proxy: {

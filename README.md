@@ -4,5 +4,3 @@
 
 
 Hosted @ https://reecemercer.dev.
-
-Thanks for the help [kamohoaliix](https://github.com/kamohoaliix) 😄

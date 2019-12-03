@@ -51,7 +51,7 @@ class GitHubViewer extends React.Component {
             <ul className="features">
               {
                 this.state.repositories.map(repo => (
-                  <li key={repo._id} style={{background: "#dddddd", borderRadius: "25px"}}>
+                  <li key={repo._id}>
                     <h3><a href={repo.link} target="_blank" rel="noopener noreferrer">{repo.name}</a></h3>
                     <GoStar/>{repo.starCount}
                     <GoRepoForked/>{repo.forks}
@@ -61,7 +61,8 @@ class GitHubViewer extends React.Component {
                 ))
               }
             </ul>
-
+            </section>
+            <section className="main special">
             <header className="major">
               <h2>Statistics</h2>
             </header>
@@ -70,7 +71,6 @@ class GitHubViewer extends React.Component {
 
             <Link to="/" className="button">Return home</Link>
           </section>
-
         </div>
       </Layout>
     )
